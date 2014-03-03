@@ -44,17 +44,18 @@ header {
 }
 
 header h1 {
-  font-size: 30px;
-  line-height: 1.5;
-  margin: 0 0 0 -40px;
-  font-weight: bold;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+	font-size: 70px;
+	line-height: 1.5;
+	margin: 0 0 0 -40px;
+	font-weight: bold;
+	font-family: handwriting-draft_free-version;
+	color: #F0C;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
-  letter-spacing: -1px;
-  -webkit-font-smoothing: antialiased;
+	letter-spacing: -1px;
+	-webkit-font-smoothing: antialiased;
+	text-align: left;
 }
 
 header h1:before {
@@ -63,9 +64,10 @@ header h1:before {
 }
 
 header h2 {
-  font-size: 18px;
-  font-weight: 300;
-  color: #666;
+	font-size: 36px;
+	font-weight: 300;
+	color: #666;
+	font-family: Lemonade;
 }
 
 #downloads .btn {
@@ -78,8 +80,9 @@ header h2 {
 */
 
 #main_content {
-  width: 100%;
-  -webkit-font-smoothing: antialiased;
+	width: 100%;
+	-webkit-font-smoothing: antialiased;
+	color: #0FF;
 }
 section img {
   max-width: 100%
@@ -104,7 +107,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content h3 {
-  font-size: 18px;
+	font-size: 18px;
+	color: #FE28C9;
+	font-family: "Superclarendon Black";
+	font-weight: bold;
 }
 
 #main_content h4 {
@@ -150,17 +156,17 @@ blockquote {
 }
 
 pre {
-  background: rgba(0, 0, 0, 0.9);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 10px;
-  font-size: 14px;
-  color: #b5e853;
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  text-wrap: normal;
-  overflow: auto;
-  overflow-y: hidden;
+	background: rgba(0, 0, 0, 0.9);
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	padding: 10px;
+	font-size: 14px;
+	color: #0F0;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	text-wrap: normal;
+	overflow: auto;
+	overflow-y: hidden;
 }
 
 table {
@@ -227,8 +233,8 @@ hr {
 */
 
 a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+	color: #0FF;
+	text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
 /* Clearfix */
